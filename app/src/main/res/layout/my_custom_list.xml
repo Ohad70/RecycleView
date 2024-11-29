@@ -39,9 +39,10 @@
         android:id="@+id/ivPic"
         android:layout_width="103dp"
         android:layout_height="84dp"
-        android:layout_marginStart="232dp"
         android:layout_weight="1"
-        app:layout_constraintStart_toStartOf="@+id/layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.753"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/bird"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="-1dp" />
